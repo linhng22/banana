@@ -71,7 +71,7 @@ nav{
     margin:auto;
     text-align:center;
     padding-top:50px;
-    background-color:lightcyan;
+    background-color:azure;
 }
 .lessons h1{
     font-size: 60px;
@@ -238,6 +238,7 @@ nav{
     margin-bottom:30px;
     margin-top: 50px;
     text-align: center;
+    padding-right:50px;
 }
 .info h1{
     color: red;
@@ -249,12 +250,15 @@ nav{
     font-style: italic;
     font-size: 20px;
 }
-.info h2{
-    padding-top: 70px;
+.inquiry{
+    padding-left:50px;
+}
+.inquiry h2{
+    padding-top: 50px;
     color: red;
     font-size: 30px;
 }
-.info p3{
+.inquiry p3{
     font-style:italic;
     font-family: serif;
 }
