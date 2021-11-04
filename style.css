@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,9,30,0.7),rgba(0,9,30,0.7)),url(banner.png);
+    background-position:top;
+    background-size:auto;
+    position:relative;
+}
+nav{
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:violet;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 30%;
+    height:4px;
+    background: white;
+    display:block;
+    margin: auto;
+    transition: 1s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    color: white;
+}
+.text-box p{
+    margin: 20px 0 20px;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+/*---- lessons ----*/
+
+.lessons{
+    width: 100%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+    background-color:lightcyan;
+}
+.lessons h1{
+    font-size: 60px;
+    color: crimson;
+}
+.lessons p{
+    color:black;
+    font-size: 15px;
+    line-height: 22px;
+    padding:10px;
+    text-align: center;
+}
+.row{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.lessons-col{
+    flex-basis: 30%;
+    background: #fff3f3;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 1s;
+    margin-left:auto;
+    margin-right: auto;
+}
+.lessons-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: darkblue;
+    font-size:20px;
+}
+.lessons-col p{
+    text-align: center;
+    font-size:15px;
+}
+.lessons-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+
+/*---- test ----*/
+
+.test{
+    width: 90%;
+    margin:auto;
+    text-align:center; 
+    padding-right: 50px;
+}
+.test h1{
+    padding-top:150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: crimson;
+}
+.test p{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    line-height: 22px;
+    padding:10px;  
+}
+
+/*---- community ----*/
+
+.community{
+    width: 90%;
+    margin:auto;
+    text-align:center; 
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.community h1{
+    padding-top:150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: crimson;
+}
+.community p{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    line-height: 22px;
+    padding:10px;  
+}
+
+/*---- contact----*/
+.contact{
+    width:100%;
+    background-image: linear-gradient(rgba(2,10,30,0.7),rgba(2,10,30,0.7)),url(banner.png);
+    background-size:contain;
+    background-position: bottom;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+
+/*---- footer----*/
+.footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600px;
+}
+.footer p1{
+    font-size: 10px;
+}
+
+
+/*------------ lessons page -----------*/
+
+.sub-header{
+    height:50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(banner.png);
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header h1{
+    font-size: 40px;
+    margin-top:50px;
+}
+.l1-3{
+    background-color: cornsilk;
+    text-align: left;
+}
+.l4-7{
+    background-color: papayawhip;
+    text-align: left;
+}
+.l8-12{
+    background-color: peachpuff;
+    text-align: left;
+}
+
+/*------------ contact page -----------*/
+
+.contact-page{
+    width:80%;
+    margin:auto;
+}
+.info{
+    flex-basis: 48%;
+    margin-bottom:30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.info h1{
+    color: red;
+    font-size: 30px;
+}
+.info p1{
+    padding-top: 50px;
+    color:green;
+    font-style: italic;
+    font-size: 20px;
+}
+.info h2{
+    padding-top: 70px;
+    color: red;
+    font-size: 30px;
+}
+.info p3{
+    font-style:italic;
+    font-family: serif;
+}
+.red-btn{
+    color: #f44336;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: floralwhite;
+    position:relative;
+    cursor: pointer;
+}
+.red-btn:hover{
+    color:black;
+}
+
+.inquiry{
+    text-align: center;
+}
+
+.inquiry input, .inquiry textarea{
+    width:100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline:none;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
