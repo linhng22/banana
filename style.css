@@ -287,13 +287,90 @@ nav{
 }
 
 /*------------ group -----------*/
-.group{
-    align-items: center;
+.community1{
+    width:100%;
+    height: 300px;
+    background-color:lightcoral;
+    text-align: center;
+}
+.community1 h2{
+    padding-top: 30px;
     font-size: 30px;
+    color:darkblue;
+    font-weight: bolder;
+    font-family: sans-serif;
+    
+}
+.community-col{
+    flex-basis: 43%;
+    background: #fff3f3;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    margin-left:auto;
+    margin-right: auto;
+}
+.community-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+.community-col h3{
     color:green;
+    line-height: 60px;
+    font-size:25px;
+}
+.community-col p{
+    line-height: 30px;
+    font-display: fallback;
+    font-size: 18px;
+}
+.facebook{
+    text-align: center;
+    font-weight: bolder;
+}
+.f_description{
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 50px;
+    color:darkblue;
+    padding-bottom: 20px;
+    font-family: sans-serif;
 }
 
+.f_link{
+    height: 350px;
+    background-image:url(facebook_group.png);
+    background-size:cover;
+    background-position: top;
+    text-align: center;
+    padding-top:200px;
+    color: orage;
+    font-family: monospace;
+    font-style: italic;
+}
+.green-btn{
+    color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    background-color: rebeccapurple;
+    position:relative;
+    cursor: pointer;
+}
+.green-btn:hover{
+    background-color:coral;
+    color:white;
+}
 
+.discuq h1{
+    padding-top:50px;
+    text-align: center;
+    color:red;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
 
 
 
