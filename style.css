@@ -373,15 +373,9 @@ nav{
 }
 
 .l1-3{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
-}
-.slides{
-    position:relative;
-    padding-left: 0;
-    margin:auto;
-    text-align:center; 
 }
 
 
