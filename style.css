@@ -373,7 +373,7 @@ nav{
 }
 
 .slides{
-    position:center;
+    position:relative;
     padding-left: 0;
 }
 
