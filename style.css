@@ -362,6 +362,11 @@ nav{
     color:white;
 }
 
+.discuq{
+    width: 80%;
+    padding-left: 120px;
+    
+}
 .discuq h1{
     padding-top:50px;
     text-align: center;
@@ -378,6 +383,24 @@ nav{
     padding: 20px;
 }
 
+
+/*---- test ----*/
+.lession_test {
+    background-color: black;
+    padding-bottom: 50px;
+}
+.lession_test h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.lession_test p{
+    color: cyan;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
 
 
 
