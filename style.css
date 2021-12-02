@@ -375,6 +375,8 @@ nav{
 .slides{
     position:relative;
     padding-left: 0;
+    margin:auto;
+    text-align:center; 
 }
 
 
